@@ -31,14 +31,14 @@ public class JsonServlet extends HttpServlet {
 		SchoolInfo school2 = new SchoolInfo("北大");
 		schools.add(school1); 
 		schools.add(school2); 
-		Person person1 = new Person("杨云锋", "http://192.168.1.108:8080/HttpWeb/images/2.jpg", 24, schools);
+		Person person1 = new Person("杨云锋", "http://d.hiphotos.baidu.com/image/pic/item/730e0cf3d7ca7bcb997158e9bb096b63f724a8ea.jpg", 24, schools);
 		
 		List<SchoolInfo> schools1 = new ArrayList<SchoolInfo>();
 		SchoolInfo school3 = new SchoolInfo("人大");
 		SchoolInfo school4 = new SchoolInfo("浙大");
 		schools1.add(school3); 
 		schools1.add(school4); 
-		Person person2 = new Person("jark", "http://192.168.1.108:8080/HttpWeb/images/1.jpg", 24, schools1);
+		Person person2 = new Person("jark", "http://d.hiphotos.baidu.com/image/pic/item/c9fcc3cec3fdfc0389d07a7ed13f8794a5c2264f.jpg", 24, schools1);
 		
 		persons.add(person1);
 		persons.add(person2);
